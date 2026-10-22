@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Natanael Lind - CV</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #2b2b2b;
+    background: #fff;
+  }
+  .page {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 297mm;
+    max-width: 210mm;
+    margin: 0 auto;
+  }
+  .sidebar {
+    background: #eef1f5;
+    padding: 32px 24px;
+    position: relative;
+  }
+  .name-block {
+    background: #2c4a6e;
+    color: #fff;
+    padding: 22px 18px;
+    margin: -32px -24px 28px -24px;
+  }
+  .name-block h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .sidebar h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2c4a6e;
+    border-bottom: 2px solid #2c4a6e;
+    padding-bottom: 4px;
+    margin: 0 0 12px 0;
+  }
+  .sidebar section { margin-bottom: 28px; }
+  .contact-item {
+    display: flex;
+    gap: 8px;
+    font-size: 12.5px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  .contact-item .icon {
+    width: 16px;
+    flex-shrink: 0;
+    color: #2c4a6e;
+    font-weight: bold;
+  }
+  .lang-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12.5px;
+    margin-bottom: 8px;
+  }
+  .dots { letter-spacing: 2px; color: #2c4a6e; }
+  .tag-list { list-style: none; padding: 0; margin: 0; font-size: 12.5px; }
+  .tag-list li {
+    padding: 4px 0 4px 14px;
+    position: relative;
+  }
+  .tag-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 6px;
+    height: 6px;
+    background: #2c4a6e;
+  }
+  .main {
+    padding: 32px 34px;
+  }
+  .main h2 {
+    font-size: 16px;
+    color: #2c4a6e;
+    border-bottom: 1px solid #cdd5df;
+    padding-bottom: 6px;
+    margin: 0 0 14px 0;
+  }
+  .main section { margin-bottom: 26px; }
+  .job-title, .edu-title {
+    font-weight: 600;
+    font-size: 13.5px;
+    margin-bottom: 2px;
+  }
+  .job-sub {
+    font-size: 12px;
+    color: #5a6a7a;
+    margin-bottom: 6px;
+  }
+  .date-tag {
+    float: right;
+    font-weight: 400;
+    font-size: 11.5px;
+    color: #5a6a7a;
+  }
+  ul.details {
+    margin: 4px 0 0 0;
+    padding-left: 18px;
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
+  ul.details li { margin-bottom: 3px; }
+  .course {
+    margin-bottom: 14px;
+  }
+  .course-title {
+    font-weight: 600;
+    font-size: 12.8px;
+    color: #2c4a6e;
+    margin-bottom: 3px;
+  }
+  .profile p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .course p {
+    margin: 0;
+    font-size: 12.3px;
+    line-height: 1.5;
+  }
+  html { background: #dfe4ea; }
+  .page { background: #fff; }
+  .contact-item a { color: inherit; text-decoration: none; word-break: break-all; }
+  @media screen and (min-width: 820px) {
+    body { padding: 32px 0; background: #dfe4ea; }
+    .page { box-shadow: 0 4px 24px rgba(0,0,0,.12); }
+  }
+  @media (max-width: 819px) {
+    .page { grid-template-columns: 1fr; min-height: 0; }
+    .main { padding: 24px 16px; }
+    .sidebar { padding: 32px 16px 8px; }
+    .name-block { margin: -32px -16px 24px -16px; }
+    .date-tag { float: none; display: block; }
+  }
+  @media print {
+    body, html { background: #fff; padding: 0; }
+    .page { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="sidebar">
+    <div class="name-block">
+      <h1>Natanael Lind</h1>
+    </div>
+
+    <section>
+      <h2>Kontakt</h2>
+      <div class="contact-item"><span class="icon">&#9993;</span><a href="mailto:natanael.lind@icloud.com">natanael.lind@icloud.com</a></div>
+      <div class="contact-item"><span class="icon">&#60;/&#62;</span><a href="https://github.com/natte-lab">github.com/natte-lab</a></div>
+    </section>
+
+    <section>
+      <h2>Språk</h2>
+      <div class="lang-row"><span>Svenska</span><span>Modersmål</span></div>
+      <div class="lang-row"><span>Engelska</span><span>Flytande</span></div>
+    </section>
+
+    <section>
+      <h2>Intressen</h2>
+      <ul class="tag-list">
+        <li>Datasäkerhet</li>
+        <li>CTF</li>
+        <li>Gym</li>
+        <li>Natur &amp; hiking</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tekniska färdigheter</h2>
+      <ul class="tag-list">
+        <li>Penetrationstestning</li>
+        <li>Nätverkssäkerhet</li>
+        <li>Linux &amp; Windows hardening</li>
+        <li>Python &amp; Bash</li>
+        <li>Nmap, Rustscan, Nessus, OpenVAS</li>
+        <li>Burp Suite, Gobuster, FFuF</li>
+        <li>Wireshark, tcpdump</li>
+        <li>VMware</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="main">
+    <section class="profile">
+      <h2>Profil</h2>
+      <p>Blivande IT-säkerhetstestare vid IT-Högskolan med två års erfarenhet som IT-tekniker, där jag arbetat med säker drift, nätverkshärdning och tvåfaktorsautentisering. Brinner för penetrationstestning och CTF, och söker en LIA-plats eller junior roll inom IT-säkerhet.</p>
+    </section>
+
+    <section>
+      <h2>Arbetslivserfarenhet</h2>
+      <div class="job-title">IT-tekniker <span class="date-tag">2022 – 2024</span></div>
+      <div class="job-sub">Supermåne AB, Strängnäs</div>
+      <ul class="details">
+        <li>Implementerade tvåfaktorsautentisering (2FA) för att stärka kontosäkerheten</li>
+        <li>Ansvarade för säker lagring och hantering av verksamhetens filer</li>
+        <li>Underhöll och uppdaterade system löpande för att minska säkerhetsrisker</li>
+        <li>Utförde grundläggande säkerhetstester och kontinuerlig loggövervakning</li>
+        <li>Härdade nätverket genom att stänga onödiga portar och konfigurera brandväggar</li>
+        <li>Säkerställde driftsäkerhet genom rutiner för säker backup</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Utbildning</h2>
+      <div class="edu-title">IT-Högskolan – IT-säkerhetstestare <span class="date-tag">aug 2025 – pågående</span></div>
+      <div class="job-sub">Distansutbildning</div>
+
+      <div class="course">
+        <div class="course-title">Introduktion till penetrationstest</div>
+        <p>Satte upp virtuella testmiljöer i VMware, kartlade nätverk med Nmap och identifierade sårbarheter. Kunskap om regelverk som GDPR och NIS2.</p>
+      </div>
+
+      <div class="course">
+        <div class="course-title">Säker konfiguration av operativsystem</div>
+        <p>Härdade Windows-system med HardeningKitty och arbetade med Linux filstruktur, bash och vanliga sårbarheter i operativsystem. Byggde en isolerad miljö i VMware för malware-analys.</p>
+      </div>
+
+      <div class="course">
+        <div class="course-title">Nätverk och nätverkssäkerhet</div>
+        <p>Analyserade nätverkstrafik med Wireshark, tcpdump och curl, och dekrypterade HTTPS-trafik i Wireshark. Goda kunskaper om OSI-modellen, brandväggar, TLS och digitala certifikat.</p>
+      </div>
+
+      <div class="course">
+        <div class="course-title">Programmering för penetrationstestare</div>
+        <p>Utvecklade egna verktyg i Python, bland annat en automatiserad API-flag-solver och ett verktyg som XOR-krypterar shellcode för att förstå hur obfuskering påverkar antivirusdetektering.</p>
+      </div>
+
+      <div class="course">
+        <div class="course-title">Hacking och sårbarhetsanalys – metodik och tekniker</div>
+        <p>Genomförde penetrationstester enligt etablerad metodik: rules of engagement, information gathering, footprinting/scanning, vulnerability assessment, exploitation och rapportering. Verktyg som Dirbuster, Gobuster, FFuF, Nmap, Rustscan, httpx, Nessus, OpenVAS och Burp Suite. Testade bland annat broken access control (IDOR), SQL-injektioner, XSS, autentiseringsbrister, brister i loggning/övervakning och svaga lösenordspolicyer. Skrev pentestrapporter med riskbedömning.</p>
+      </div>
+    </section>
+  </div>
+</div>
+</body>
+</html>
